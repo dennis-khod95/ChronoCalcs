@@ -795,9 +795,9 @@ return(wplot)
 }
 
 
-wrightplot <- wright_plot(onset_data = onset, offset_data = offset, id = "participant_id", 
-                          session = "session_id", offset_threshold_time = "thresh_time_off", 
-                          onset_threshold_time = "thresh_time_on", max_time = "max_time")
+# wrightplot <- wright_plot(onset_data = onset, offset_data = offset, id = "participant_id", 
+#                          session = "session_id", offset_threshold_time = "thresh_time_off", 
+#                          onset_threshold_time = "thresh_time_on", max_time = "max_time")
 
 
 
