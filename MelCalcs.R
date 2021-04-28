@@ -182,16 +182,6 @@ return(quarterdat)
 
 
 
-#
-summm <- spline_dat %>% 
-  filter(id != 11)
-summm <- summm %>% 
-  group_by(id, session) %>% 
-  filter(id != 1 | session != "Autumn") %>% 
-  ungroup()
-#
-
-
 dlmo_onset <- function(dataset, id, melatonin_val, session, ob.hour, 
                        threshold_data, threshold_id, threshold_session, onset_threshold, max_time) {
 
